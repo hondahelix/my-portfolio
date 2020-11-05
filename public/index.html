@@ -1,13 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html>
+  <head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="../node_modules/materialize-css/dist/css/materialize.min.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="../node_modules/materialize-social/materialize-social.less"/>
+    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="css/style.css">
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Jonathan Honda</title>
-</head>
-<body>
-    <a href="/contact">contact</a>
-    <a href="/portfolio">portfolio</a>
-    <h1>hiiiii</h1>
-</body>
+  </head>
+
+  <body>
+    <nav class="nav-center" role="navigation">
+        <div class="nav-wrapper">
+          <ul id="nav-mobile" class="navbar">
+            <li><a href="#"><i class = "material-icons">home</i></a></li>
+            <li><a href="/portfolio"> <i id = "not-clicked" class = "material-icons">folder_open</i></a></li>
+            <li><a href="/contact"><i id = "not-clicked" class = "material-icons large">mail_outline</i></a></li>
+            <li><a href="../Honda-Resume.pdf"><i id = "not-clicked" class = "material-icons large">insert_drive_file</i></a></li>
+          </ul>
+        </div>
+    </nav>
+    <br><br>
+    <div class = "container">
+        <div class="center-align">
+            <br><br>
+            <img id = "profile-picture" src="../assets/profile.jpeg" class= "responsive-img circle" alt="Picture of Me">
+        </div>
+        <div>
+            <p>
+                Hello, world! My name is Jonathan Honda, and I am taking a coding Bootcamp at the University of California, Berkeley. 
+                I am originally from San Diego, California, and I have graduated this year from the University of California, Irvine, with a BA in Criminology Law and Society. 
+                Go Anteaters Zot Zot Zot!!! However, I now live in Northern California. Another exciting thing about me is that I was in the ROTC program all four years in college and have commissioned as a second lieutenant in the Army National Guard. 
+                I am very excited about taking this coding boot camp because coding can be utilized in any career field. 
+                I decided to take this course because due to the current pandemic, job openings are difficult to come by, so I decided to take this time to better myself and learn a valuable new skill.
+
+            </p>
+        </div>
+        <br>
+        <a id="social" href="https://linkedin.com/in/jonathan-honda-778430153"><img src="../assets/linkedIn-icon.png" alt="linkedin"></a>
+        <a id="social" href="https://www.instagram.com/honda_helix/"><img src="../assets/github-icon.png" alt="github"></a>
+        <a id="social" href="https://github.com/hondahelix"><img src="../assets/in-icon.png" alt="instagram"></a>
+         
+
+    
+    
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="../node_modules/materialize-css/dist/js/materialize.min.js"></script>
+  </body>
 </html>

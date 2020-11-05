@@ -1,0 +1,41 @@
+nav {
+    background-color: rgb(68, 163, 163) !important;
+    height: 70px;
+    line-height: 70px;
+}
+nav.nav-center ul {
+    text-align: center;
+}
+nav.nav-center ul li {
+    display: inline;
+    float: none;
+}
+nav.nav-center ul li a {
+    display: inline-block;
+}
+#not-clicked{
+    color: rgb(116, 182, 175) !important;
+}
+.material-icons { 
+    font-size: 36px !important;
+}
+li{
+    margin: 20px;   
+}
+body{
+    background-color: darkblue;
+}
+.container{
+    background-color: white;
+}
+#profile-picture{
+    height: 150px;
+    width: 169px;
+}
+p{
+    font-size: 20px;
+    padding: 20px;
+}
+.fa{
+    color: white !important;
+}
